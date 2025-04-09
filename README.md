@@ -3,7 +3,6 @@
 A fun and educational ROS 2 (Humble) project based on the **Turtlesim** simulator.  
 This project simulates a turtle robot that catches randomly spawned turtles by navigating the shortest path to its target.  
 
-> Final project inspired by "ROS 2 for Beginners" course.
 
 ---
 
