@@ -132,12 +132,13 @@ Located in `turtle_bringup/launch/turtlesim_catch_them_all.launch.xml`, it launc
 ![image](https://github.com/user-attachments/assets/6b72cb5a-8680-47c5-92cf-b2a5f3ea07a8)
 
 
-
+<!--
 ---
 
 ## Credits
 
 This project is based on the final course project from [ROS 2 for Beginners – Udemy Course](https://www.udemy.com/course/ros2-for-beginners/).
+-->
 
 ---
 
