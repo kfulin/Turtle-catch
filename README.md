@@ -127,9 +127,9 @@ Located in `my_robot_bringup/launch/bringup.launch.py`, it launches:
 
 ---
 
-## Screenshot / Demo (optional)
+## Screenshot / Demo
 
-_You can insert a screenshot or short GIF showing turtles being caught._
+_need to be add
 
 ---
 
