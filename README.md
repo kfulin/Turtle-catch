@@ -35,8 +35,8 @@ When the main turtle reaches a spawned turtle, the `turtle_controller` notifies 
 turtle_catch_ws/
 ├── src/
 │   ├── turtlesim_catch_them_all/    # Main logic (controller + spawner nodes)
-│   ├── my_robot_interfaces/         # Custom messages and services
-│   └── my_robot_bringup/            # Launch and param files
+│   ├── turtle_interfaces/         # Custom messages and services
+│   └── turtle_bringup/            # Launch and param files
 ```
 
 ---
@@ -73,7 +73,7 @@ source install/setup.bash
 ### 2. Launch the project
 
 ```bash
-ros2 launch my_robot_bringup bringup.launch.py
+ros2 launch turtle_bringup turtlesim_catch_them_all.launch.xml
 ```
 
 ---
@@ -86,7 +86,7 @@ ros2 launch my_robot_bringup bringup.launch.py
 |-------|------|-------------|
 | `/turtle1/pose` | `turtlesim/msg/Pose` | Main turtle position |
 | `/turtle1/cmd_vel` | `geometry_msgs/msg/Twist` | Control commands |
-| `/alive_turtles` | `my_robot_interfaces/msg/TurtleArray` | Active turtles list |
+| `/alive_turtles` | `turtle_interfaces/msg/TurtleArray` | Active turtles list |
 
 ### Services
 
