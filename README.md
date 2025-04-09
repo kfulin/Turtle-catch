@@ -118,7 +118,7 @@ turtle_spawner:
 
 ## Launch File
 
-Located in `my_robot_bringup/launch/bringup.launch.py`, it launches:
+Located in `turtle_bringup/launch/turtlesim_catch_them_all.launch.xml`, it launches:
 
 - turtlesim node
 - turtle_controller
