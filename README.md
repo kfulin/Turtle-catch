@@ -7,7 +7,7 @@ This project simulates a turtle robot that catches randomly spawned turtles by n
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project implements a small-scale simulation with three ROS 2 nodes:
 
@@ -19,7 +19,7 @@ When the main turtle reaches a spawned turtle, the `turtle_controller` notifies 
 
 ---
 
-## 🛠️ Features
+## Features
 
 - Turtle spawning at random positions.
 - Live publishing of turtle positions via a custom message.
@@ -29,7 +29,7 @@ When the main turtle reaches a spawned turtle, the `turtle_controller` notifies 
 
 ---
 
-## 🗂️ Package Structure
+## Package Structure
 
 ```
 turtle_catch_ws/
@@ -41,7 +41,7 @@ turtle_catch_ws/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Make sure you have the following installed:
 
@@ -57,7 +57,7 @@ sudo apt install ros-humble-turtlesim
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone and build the workspace
 
@@ -78,7 +78,7 @@ ros2 launch my_robot_bringup bringup.launch.py
 
 ---
 
-## 📱 Communication Overview
+## Communication Overview
 
 ### Topics
 
@@ -98,7 +98,7 @@ ros2 launch my_robot_bringup bringup.launch.py
 
 ---
 
-## ⚙️ Parameters
+## Parameters
 
 You can customize behavior through parameters in the YAML config:
 
@@ -116,7 +116,7 @@ turtle_spawner:
 
 ---
 
-## 🧪 Launch File
+## Launch File
 
 Located in `my_robot_bringup/launch/bringup.launch.py`, it launches:
 
@@ -127,19 +127,19 @@ Located in `my_robot_bringup/launch/bringup.launch.py`, it launches:
 
 ---
 
-## 📷 Screenshot / Demo (optional)
+## Screenshot / Demo (optional)
 
 _You can insert a screenshot or short GIF showing turtles being caught._
 
 ---
 
-## 📚 Credits
+## Credits
 
 This project is based on the final course project from [ROS 2 for Beginners – Udemy Course](https://www.udemy.com/course/ros2-for-beginners/).
 
 ---
 
-## 📝 License
+## License
 
 MIT License
 
